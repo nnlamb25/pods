@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         	  = "BrazeEngine"
+  s.name         	  = "BrazeEngine2"
   s.version      	  = "2.0.0"
   s.summary     	  = "Integration library for Factual's Engine SDK and Braze iOS SDK"
   s.homepage     	  = "https://www.factual.com/products/engine"
