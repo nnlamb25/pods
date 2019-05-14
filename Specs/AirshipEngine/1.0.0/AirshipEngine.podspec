@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target   = "8.0"
   s.static_framework      	= true
   s.xcconfig                = { 'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/FactualEngineSDK' }
-  s.dependency "UrbanAirship-iOS-SDK",
+  s.dependency "UrbanAirship-iOS-SDK"
   s.dependency "FactualEngineSDK", ">= 9.4.0"
 end
