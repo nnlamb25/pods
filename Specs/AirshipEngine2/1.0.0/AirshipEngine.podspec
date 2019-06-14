@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         	        = "AirshipEngine"
+  s.name         	        = "AirshipEngine2"
   s.version      	        = "1.0.0"
   s.summary      	        = "Integration library for Factual's Engine SDK and the Airship iOS SDK"
   s.homepage     	        = "https://www.factual.com/products/engine"
