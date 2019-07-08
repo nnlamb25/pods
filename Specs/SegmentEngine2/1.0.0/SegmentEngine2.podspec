@@ -7,7 +7,8 @@ Pod::Spec.new do |s|
     s.author                = { "Factual Inc" => "mobile@factual.com" }
     s.platform              = :ios
     s.source                = { :http => "https://factual.bintray.com/files-internal/segment-engine-ios-#{s.version}.tar.gz", :flatten => true }
-    s.source_files          = "*.swift"
+    s.source_files          = "*.{h,m}"
+    s.ios.deployment_target = "8.0"
     s.static_framework      = true
     s.dependency "FactualEngineSDK", ">= 10.0.0"
     s.dependency "Analytics"
